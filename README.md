@@ -1,9 +1,5 @@
-Tâche: Analyse de sentiments
-Travail à faire: Le but étant de comparer la performance de plusieurs modèles sur la tâche à effectuer:
-Etape 1: Pré-traitement des données
-Etape 2:
- Entraînement de modèles basiques: Logistic Regression, Naive Bayes …
- LSTM
- Fine Tuning de BERT
-Etape 3: Comparaison des performances de tous les modèles sur les données de tests et en tirer des conclusions  (afficher les performances des modèles)
-Chaque étape sera mise dans une branche, on aura donc trois branches: une branche pre-processig, une branche entraînement et fine-tuning des modèles et une troisième branche pour l’évaluation des performances des modèles et la comparaisons entre les différentes méthodes
+L’analyse des sentiments est un sous-domaine du Traitement automatique du langage naturel (NLP pour Natural Language Processing en anglais) et qui consiste à essentiellement à juger le sentiment qui se cache derrière un texte.
+Ce projet est un projet dans un cadre académique, nous avons implémenté différents modèles pour réaliser cette tâche: la régression logistique, Naive Bayes, LSTM et enfin BERT. Nous allons entraîner les modèles, voir leur performance puis nous choisissons un parmi eux afin de faire une application web. 
+
+Nous avons utilisé Streamlit comme framework pour présenter les résultats dans une applications web. 
+
